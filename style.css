@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+body{
+    color: #485268;
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 150%;
+    font-size: 10px;
+    background-color:  #E5E5E5;
+}
+
+a{
+    text-decoration: none;
+}
+/* #region about */
+.about {
+    display: flex;
+    padding: 32px 40px 24px 40px;
+    background-color: #E25544;
+    color: white;
+}
+
+.about-block {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.about-name{
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 600;
+    margin: 0 0 8px 0;   
+}
+.about-role {
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin: 0 0 8px 0; 
+}
+.about-text{
+    font-size: 10px;
+    line-height: 150%;
+}
+
+.about-image img{
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+/* #endregion */
+.page{
+    width: 595px;
+    margin: 0 sauto;
+}
+
+.main {
+    padding: 0 40px;
+    background-color: #fff;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.contact-link {
+    font-size: 10px;
+    line-height: 15px;
+    color: #485268;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #DEE2ED;
+    padding: 24px 0;
+}
+.info-title {
+    color: #E25544;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 0;
+}
+.info-content{
+    width: 351px;  
+}
+
+.job{
+    margin-top: 24px;   
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+}
+
+.job:first-child{
+    margin-top: 0;
+}
+.job-title {
+    margin: 0;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+.job-decription {
+    margin: 0;
+    margin-top: 8px;
+}
+
+.study{
+    margin-top: 24px;   
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+}
+
+.study:first-child{
+    margin-top: 0;
+}
+.study-title {
+    margin: 0;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+.study-decription {
+    margin: 0;
+    margin-top: 8px;
+}
+
+.skills{
+    display: flex;
+}
+.skills-list{
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+    list-style: none;
+}
+.skills-item{
+    margin-top: 8px;
+}
+.skills-item:first-child {
+    margin-top: 0;
+}
+
+.tools{
+    display: flex;
+}
+.tools-list{
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+    list-style: none;
+}
+.tools-item{
+    margin-top: 8px;
+}
+.tools-item:first-child {
+    margin-top: 0;
+}
